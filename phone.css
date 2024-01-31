@@ -1,0 +1,31 @@
+body{
+    background-color: aquamarine;
+}
+form {
+    background: #505bef;
+    position: fixed;
+    display: flex;
+    padding: 14px 66px 14px 66px;
+    top: 0px;
+    left: 0px;
+    right: 0;
+    justify-content: space-evenly;
+}
+form input[type="text"] {
+    background: rgba(255, 254, 254, 0.7);
+    min-width: 220px;
+    max-width: 100%;
+}
+form input {
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 11px 19px;
+}
+form input[type="submit"] {
+    cursor: pointer;
+    margin-left: 16px;
+    background: #c62828;
+    color: #f0d0d0;
+}
